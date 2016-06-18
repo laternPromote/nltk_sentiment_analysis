@@ -1,3 +1,4 @@
+#before using this brill tagger demo, download ntk copora using nltk.download()
 def train_brill_tagger(train_data):
     # Modules for creating the templates.
     from nltk.tag import UnigramTagger
