@@ -6,9 +6,9 @@ __author__ = 'geyan'
 # function: read all
 import os.path
 
-directory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\'
-negDirectory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\neg\\'
-posDirectory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\pos\\'
+directory = '\\resources\\original files\\htl_del_4000\\'
+negDirectory = '\\resources\\original files\\htl_del_4000\\neg\\'
+posDirectory = '\\resources\\original files\\htl_del_4000\\pos\\'
 
 
 # This method is used to process each file in the directory

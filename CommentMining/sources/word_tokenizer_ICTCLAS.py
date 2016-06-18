@@ -62,7 +62,7 @@ if not MY_NLPIR_Init('', 1):
 
 posResults = []
 negResults = []
-directory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\'
+directory = '\\resources\\original files\\htl_del_4000\\'
 
 
 def tokenizeTextFile(arg):
