@@ -29,9 +29,9 @@ def convert(data):
         return data
 
 
-directory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\'
-negDirectory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\neg\\'
-posDirectory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\pos\\'
+directory = '\\resources\\original files\\htl_del_4000\\'
+negDirectory = '\\resources\\original files\\htl_del_4000\\neg\\'
+posDirectory = '\\resources\\original files\\htl_del_4000\\pos\\'
 
 """
 evaluate_features(feature_select)

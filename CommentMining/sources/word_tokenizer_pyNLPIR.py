@@ -8,7 +8,7 @@ import pynlpir
 def tokenize(file):
     words = []
     pynlpir.open()
-    directory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\'
+    directory = '\\resources\\original files\\htl_del_4000\\'
     posWords = codecs.open(directory + file + 'Words.txt', 'w+', 'utf-8')
     with codecs.open(directory + file + '.txt', 'r', 'utf-8') as posFile:
         for s in posFile.readlines():

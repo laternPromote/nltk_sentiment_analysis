@@ -16,7 +16,7 @@ from nltk.probability import FreqDist, ConditionalFreqDist
 
 from replacers import AntonymReplacer
 
-directory = 'C:\\Users\\geyan\\Desktop\\htl_del_4000\\'
+directory = '\\resources\\original files\\htl_del_4000\\'
 stop = stopwords.words('english')
 
 
@@ -76,8 +76,8 @@ def evaluate_features(feature_select):
 def evaluate_without_negations(feature_select):
     replacer = AntonymReplacer()
 
-    posSentences = open('c:\\users\\GE\\documents\\pos.txt', 'r')
-    negSentences = open('c:\\users\\GE\\documents\\neg.txt', 'r')
+    posSentences = open('\\resources\\original files\\pos.txt', 'r')
+    negSentences = open('\\resources\\original files\\neg.txt', 'r')
 
     posSentences = re.split(r'\n', posSentences.read().translate(None, string.punctuation))
     negSentences = re.split(r'\n', negSentences.read().translate(None, string.punctuation))
@@ -132,8 +132,8 @@ def evaluate_with_adjs(feature_select):
     brown_train = list(brown.tagged_sents(categories='news'))
     # bt = train_brill_tagger(brown_train)
 
-    posSentences = open('c:\\users\\GE\\documents\\pos.txt', 'r')
-    negSentences = open('c:\\users\\GE\\documents\\neg.txt', 'r')
+    posSentences = open('\\resources\\original files\\pos.txt', 'r')
+    negSentences = open('\\resources\\original files\\neg.txt', 'r')
 
     posSentences = re.split(r'\n', posSentences.read().translate(None, string.punctuation))
     negSentences = re.split(r'\n', negSentences.read().translate(None, string.punctuation))
@@ -183,8 +183,8 @@ def evaluate_with_adjs(feature_select):
 
 
 def create_word_scores():
-    posSentences = open('c:\\users\\GE\\documents\\pos.txt', 'r')
-    negSentences = open('c:\\users\\GE\\documents\\neg.txt', 'r')
+    posSentences = open('\\resources\\original files\\pos.txt', 'r')
+    negSentences = open('\\resources\\original files\\neg.txt', 'r')
     posSentences = re.split(r'\n', posSentences.read().translate(None, string.punctuation))
     negSentences = re.split(r'\n', negSentences.read().translate(None, string.punctuation))
 
